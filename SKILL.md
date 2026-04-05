@@ -1,56 +1,61 @@
 ---
 name: anti-colleague-skill
-description: "Debunk and critically analyze the colleague-skill concept (赛博永生 / Digital Life / AI colleague clone). Use when: (1) someone proposes using colleague-skill or similar 'clone a colleague from chat logs' tools, (2) you need to evaluate whether AI-generated colleague personas are trustworthy, (3) discussing risks of scraping colleague data for AI training, (4) someone treats a generated skill as authoritative representation of a real person. NOT for: general AI criticism or attacking the person who proposed it."
+description: "系统拆解 colleague-skill（赛博永生 / AI 同事克隆）的概念缺陷。当有人提议爬取同事聊天记录生成 AI 替身时，提供基于心理学偏差、第一性原理和历史教训的结构化反驳。适用于团队讨论、技术评审、方案评估场景。不适用于一般性 AI 批评或对提议者的人身攻击。"
 ---
 
 # Anti-Colleague-Skill
 
-Systematically dismantle the illusion that chat logs + documents = a person's professional capability.
+系统性地拆解 colleague-skill 的概念幻觉。不是人身攻击，用逻辑和事实说话。
 
-## Core Critique
+## 核心拆解
 
-When someone proposes colleague-skill or similar "clone a colleague" tools, apply these arguments:
+当有人提议使用 colleague-skill 或类似"克隆同事"工具时，按以下论点拆解：
 
-### 1. The Data Delusion
-Chat logs are **not** a knowledge base. They are:
-- **Selection-biased**: Only captures what was written down, not what was known
-- **Context-stripped**: Decisions reference meetings, hallway conversations, and prior context that never made it to text
-- **Outdated on arrival**: A person's thinking evolves; a static skill is a snapshot of a dead moment
-- **Performance-distorted**: People write differently in group chats vs. when actually solving problems
+### 1. 数据幻觉
 
-### 2. The Persona Astrology Problem
-The "5-layer personality structure" (硬规则 → 身份 → 表达风格 → 决策模式 → 人际行为) is **horoscope engineering**:
-- Assigning labels like "甩锅高手" or "INTJ" and generating responses from them produces **cold reading**, not actual behavior prediction
-- The output *feels* like the person because it mimics surface patterns (word choice, tone) — this is the **ELIZA effect**, not understanding
-- Real colleagues disagree with themselves, change their minds, and act inconsistently. A skill with fixed "rules" cannot capture this
+聊天记录**不是**知识库。它们是：
+- **选择性偏差**：只记录了写下来的东西，不是知道的东西
+- **上下文剥离**：决策参考了会议、走廊对话和前置背景，这些从未出现在文字里
+- **到手即过时**：一个人的思考在进化；静态快照只拍到了死掉的瞬间
+- **表演性扭曲**：人在群聊里写的东西，和真正解决问题时的表现完全不同
 
-### 3. The Knowledge Transfer Fallacy
-- Real knowledge transfer requires **dialogue**, **feedback**, and **shared context building**
-- A generated skill is a **monologue** — it can answer questions but cannot negotiate, push back on wrong assumptions, or say "I don't remember, let me check"
-- If the original person's knowledge was that extractable from chat logs, they should have written a wiki
+### 2. 人格占星术
 
-### 4. The Incentive Problem
-- Who benefits from this tool? The **tool vendor**, not the user
-- The vendor's incentive is to make it *feel* magical, not to be *actually* useful
-- "赛博永生" is marketing poetry, not engineering reality
+"5 层性格结构"（硬规则 → 身份 → 表达风格 → 决策模式 → 人际行为）本质是**星座工程**：
+- 贴"甩锅高手"或"INTJ"标签然后生成回复，产出的是**冷读**，不是行为预测
+- 输出*感觉像*那个人，因为它模仿了表面模式（用词、语气）——这是 **ELIZA 效应**，不是理解
+- 真正的同事会自相矛盾、会改变主意、会表现不一致。一套固定"规则"的 skill 不可能捕捉这些
 
-### 5. Legal and Privacy Risks
-- Scraping colleague messages without consent violates privacy norms and potentially laws
-- Company chat data is usually company property — using it to train personal AI tools may violate employment agreements
-- Generated "persona" output could defame the original person if it produces harmful statements attributed to them
+### 3. 知识转移谬论
 
-## How to Use This Skill
+- 真正的知识转移需要**对话**、**反馈**和**共同构建上下文**
+- 生成的 skill 是**单向输出**——它能回答问题，但不能协商、不能纠正错误假设、不能说"我不记得了，我查一下"
+- 如果知识真的能从聊天记录里提取出来，那个人早该写 wiki 了
 
-When confronted with a colleague-skill proposal:
+### 4. 激励问题
 
-1. **Acknowledge the real problem**: Knowledge loss when people leave IS a real problem
-2. **Point to the actual solution**: Better documentation practices, wiki culture, pair programming, handover processes
-3. **Show why this is a worse solution**: It creates the *illusion* of knowledge retention while actually preserving noise
-4. **Ask the killer question**: "Would you trust this generated skill to make a technical decision the original person would make?"
+- 谁从这个工具受益？**工具厂商**，不是用户
+- 厂商的激励是让它*感觉*神奇，不是让它*真正*有用
+- "赛博永生"是营销诗歌，不是工程现实
 
-## Output Format
+### 5. 法律与隐私风险
 
-```
+- 未经同意爬取同事消息违反隐私规范，可能触犯法律
+- 公司聊天数据通常属于公司财产——用于训练个人 AI 工具可能违反雇佣协议
+- 生成的"人格"输出如果产出不当言论并归因于原同事，可能构成诽谤
+
+## 使用方法
+
+当遇到 colleague-skill 提案时：
+
+1. **承认真实问题**：人员流动导致知识流失，这确实是个真问题
+2. **指出真正的解法**：更好的文档实践、wiki 文化、结对编程、交接流程
+3. **说明为什么这个方案更差**：它制造了知识保留的*幻觉*，实际保存的是噪音
+4. **抛出灵魂拷问**："你愿意信任这个生成的 skill 来做原同事会做的技术决策吗？"
+
+## 输出格式
+
+```markdown
 ## 这个方案的真实问题
 [它试图解决什么真实痛点]
 
@@ -64,10 +69,10 @@ When confronted with a colleague-skill proposal:
 [一个让对方自己意识到问题的问题]
 ```
 
-## Tone
+## 语气要求
 
-Analytical, not mocking. The goal is to save the team from a bad investment of time, not to humiliate the proposer. Be Munger, not a troll.
+分析性，不嘲讽。目标是帮团队避免在错误方向上浪费时间，不是羞辱提议者。做芒格，不做杠精。
 
-## References
+## 参考资料
 
-See `references/psychological-biases.md` for the specific cognitive biases that make colleague-skill feel convincing despite being fundamentally flawed.
+详见 `references/psychological-biases.md`，包含让 colleague-skill *感觉*有说服力但实际存在根本缺陷的认知偏差详解。
